@@ -4,7 +4,7 @@ document.getElementById("button").addEventListener("click", fetchData);
 async function fetchData() {
     try {
         var text = document.getElementById("dateBox").value;
-        const response = await fetch(`http://calapi.inadiutorium.cz/api/v0/en/calendars/default/${text}`)
+        const response = await fetch(`https://calapi.inadiutorium.cz/api/v0/en/calendars/default/${text}`)
         const data = await response.json();
         printDataToPage(data);
     }
