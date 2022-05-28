@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header h1 {
+    margin: 0 0 10px 0;
+}
+
+.header select {
+    font-size: 1rem;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.info {
+    text-align: center;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+input {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+}
